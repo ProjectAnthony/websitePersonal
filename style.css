@@ -15,12 +15,13 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  height: 80px;
   padding: 20px 100px;
   background: grey;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  /* z-index: 100; */
 }
 
 .logo {
@@ -50,4 +51,41 @@ body {
 
 .navbar a:hover::before {
   width: 100%;
+}
+
+.indexSection1 {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 960px;
+  height: 795px;
+  border-style: solid;
+  border-color: black;
+}
+
+.indexHeader {
+  font-size: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.indexText {
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.tyler {
+  float: right;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.quote {
+  font-size: 50px;
+  font-family: Brush Script MT, cursive;
+  margin-top: 200px;
+  text-align: center;
 }
