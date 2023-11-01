@@ -61,7 +61,7 @@ body {
   left: 50%;
   transform: translate(-50%, 0);
   width: 960px;
-  height: 758px;
+  height: 795px;
 }
 
 .indexHeader {
@@ -205,4 +205,139 @@ footer {
 
 .gameText2 {
   margin: 16px 20px 16px 20px;
+}
+
+.portSection {
+  background-color: lightblue;
+  position: relative;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 960px;
+  height: 1125px;
+}
+
+.portHeader {
+  font-size: 32px;
+  padding: 20px 20px 0px 20px;
+}
+
+.portHeader:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0px;
+  border-bottom: 2px solid black;
+}
+.project1 {
+  background-color: white;
+  /* position: absolute; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  width: 800px;
+  height: 280px;
+  padding: 16px;
+}
+
+.proHeader1 {
+  font-size: 24px;
+  padding-bottom: 32px;
+}
+
+.proHeader1:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0px;
+  border-bottom: 2px solid darkgrey;
+}
+
+.projectImg1 {
+  float: right;
+}
+
+.pro1Text1 {
+  /* margin-top: 16px; */
+  margin-bottom: 16px;
+  /* margin-inline-start: 16px; */
+}
+
+.pro1Text2 {
+  margin-bottom: 16px;
+}
+
+.project2 {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  width: 800px;
+  height: 280px;
+  padding: 16px;
+}
+
+.proHeader2 {
+  font-size: 24px;
+  padding-bottom: 32px;
+}
+
+.proHeader2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0px;
+  border-bottom: 2px solid darkgrey;
+}
+
+.projectImg2 {
+  float: left;
+  margin-right: 16px;
+}
+
+.pro2Text1 {
+  margin-bottom: 16px;
+}
+
+.pro2Text2 {
+  margin-bottom: 16px;
+}
+
+.project3 {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  width: 800px;
+  height: 280px;
+  padding: 16px;
+}
+
+.proHeader3 {
+  font-size: 24px;
+  padding-bottom: 32px;
+}
+
+.proHeader3:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0px;
+  border-bottom: 2px solid darkgrey;
+}
+
+.projectImg3 {
+  float: right;
+}
+
+.pro3Text1 {
+  margin-bottom: 16px;
+}
+
+.pro3Text2 {
+  margin-bottom: 16px;
 }
