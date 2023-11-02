@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: lightgoldenrodyellow;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  padding: 20px 100px;
+  background: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 0%;
+  height: 2px;
+  background: #fff;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+.indexSection {
+  background-color: lightblue;
+  position: relative;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 960px;
+  height: 795px;
+}
+
+.indexHeader {
+  font-size: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.indexText {
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.tyler {
+  float: right;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+.quote {
+  font-size: 50px;
+  font-family: Brush Script MT, cursive;
+  margin-top: 200px;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook {
+  margin: 20px;
+}
+
+.linkedin {
+  margin: 20px;
+}
+
+.twitter {
+  margin: 20px;
+}
+
+.aboutSection {
+  background-color: lightblue;
+  position: relative;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 960px;
+  height: 1150px;
+}
+
+.aboutHeader {
+  font-size: 32px;
+  padding: 20px;
+}
+
+.aboutHeader:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 20px;
+  border-bottom: 2px solid black;
+}
+
+.gymHeader {
+  margin-left: 20px;
+}
+
+.gymImg {
+  float: right;
+  margin: 0px 24px 24px 24px;
+}
+
+.gymText {
+  margin: 16px 0px 16px 20px;
+}
+
+.gymText2 {
+  margin: 16px 20px 16px 20px;
+}
+
+.gymText2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 20px;
+  border-bottom: 2px solid black;
+}
+
+.judoHeader {
+  margin-left: 20px;
+}
+
+.judoImg {
+  float: left;
+  margin: 16px 24px 24px 20px;
+}
+
+.judoText {
+  margin: 16px 20px 16px 20px;
+}
+
+.judoText2 {
+  margin: 16px 20px 16px 20px;
+}
+
+.judoText2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 20px;
+  border-bottom: 2px solid black;
+}
+
+.gameHeader {
+  margin-left: 20px;
+}
+
+.gameImg {
+  float: right;
+  margin: 0px 24px 24px 24px;
+}
+
+.gameText {
+  margin: 16px 0px 16px 20px;
+}
+
+.gameText2 {
+  margin: 16px 20px 16px 20px;
+}
+
+.portSection {
+  background-color: lightblue;
+  position: relative;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 960px;
+  height: 1125px;
+}
+
+.portHeader {
+  font-size: 32px;
+  padding: 20px 20px 0px 20px;
+}
+
+.portHeader:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0px;
+  border-bottom: 2px solid black;
+}
+.project1 {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  width: 800px;
+  height: 280px;
+  padding: 16px;
+}
+
+.proHeader1 {
+  font-size: 24px;
+  padding-bottom: 32px;
+}
+
+.proHeader1:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0px;
+  border-bottom: 2px solid darkgrey;
+}
+
+.projectImg1 {
+  float: right;
+}
+
+.pro1Text1 {
+  margin-bottom: 16px;
+}
+
+.pro1Text2 {
+  margin-bottom: 16px;
+}
+
+.project2 {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  width: 800px;
+  height: 280px;
+  padding: 16px;
+}
+
+.proHeader2 {
+  font-size: 24px;
+  padding-bottom: 32px;
+}
+
+.proHeader2:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0px;
+  border-bottom: 2px solid darkgrey;
+}
+
+.projectImg2 {
+  float: left;
+  margin-right: 16px;
+}
+
+.pro2Text1 {
+  margin-bottom: 16px;
+}
+
+.pro2Text2 {
+  margin-bottom: 16px;
+}
+
+.project3 {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  width: 800px;
+  height: 280px;
+  padding: 16px;
+}
+
+.proHeader3 {
+  font-size: 24px;
+  padding-bottom: 32px;
+}
+
+.proHeader3:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 0px;
+  border-bottom: 2px solid darkgrey;
+}
+
+.projectImg3 {
+  float: right;
+}
+
+.pro3Text1 {
+  margin-bottom: 16px;
+}
+
+.pro3Text2 {
+  margin-bottom: 16px;
+}
