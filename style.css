@@ -7,7 +7,6 @@
 }
 
 body {
-  min-height: 100vh;
   background: lightgoldenrodyellow;
 }
 
@@ -17,7 +16,7 @@ body {
   left: 0;
   width: 100%;
   height: 80px;
-  padding: 20px 100px;
+  padding: 20px 10px;
   background: grey;
   display: flex;
   justify-content: space-between;
@@ -41,7 +40,7 @@ body {
   margin-left: 40px;
 }
 
-.navbar a::before {
+/* .navbar a::before {
   content: "";
   position: absolute;
   top: 100%;
@@ -52,41 +51,53 @@ body {
 
 .navbar a:hover::before {
   width: 100%;
-}
+} */
 
+@media screen and (max-width: 960px) {
+  .indexSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 120vh !important;
+    width: 100% !important;
+  }
+  .indexSection > .quote {
+    margin-top: 0px;
+  }
+}
 .indexSection {
   background-color: lightblue;
   position: relative;
   top: 80px;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 960px;
-  height: 795px;
+  width: 50%;
+  min-height: 100vh;
 }
 
 .indexHeader {
-  font-size: 40px;
-  padding-left: 30px;
-  padding-top: 30px;
+  font-size: 2.5rem;
+  padding: 20px;
 }
 
 .indexText {
   font-size: 24px;
   font-weight: 200;
-  padding-left: 30px;
-  padding-top: 25px;
+  padding: 20px;
 }
 
 .tyler {
   float: right;
   margin-top: 10px;
   margin-right: 25px;
+  margin-left: 25px;
 }
 
 .quote {
   font-size: 50px;
   font-family: Brush Script MT, cursive;
-  margin-top: 200px;
+  margin-top: 220px;
   text-align: center;
 }
 
@@ -114,14 +125,43 @@ footer {
   margin: 20px;
 }
 
+@media screen and (max-width: 960px) {
+  .aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 120vh !important;
+    width: 100% !important;
+  }
+  .gymHeader {
+    margin-left: 0 !important;
+  }
+  .gymText {
+    margin-right: 20px !important;
+  }
+  .judoHeader {
+    margin-left: 0 !important;
+  }
+  .judoImg {
+    margin-top: 0px !important;
+  }
+  .gameHeader {
+    margin-left: 0 !important;
+  }
+  .gameText {
+    margin-right: 20px !important;
+  }
+}
+
 .aboutSection {
   background-color: lightblue;
   position: relative;
   top: 80px;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 960px;
-  height: 1150px;
+  width: 50%;
+  min-height: 120vh;
 }
 
 .aboutHeader {
@@ -205,6 +245,29 @@ footer {
 
 .gameText2 {
   margin: 16px 20px 16px 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .portSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 120vh !important;
+    width: 100% !important;
+  }
+  .project1 {
+    width: 100% !important;
+    height: 40% !important;
+  }
+  .project2 {
+    width: 100% !important;
+    height: 40% !important;
+  }
+  .project3 {
+    width: 100% !important;
+    height: 40% !important;
+  }
 }
 
 .portSection {
@@ -337,4 +400,51 @@ footer {
 
 .pro3Text2 {
   margin-bottom: 16px;
+}
+
+@media screen and (max-width: 960px) {
+  .conSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 120vh !important;
+    width: 100% !important;
+  }
+  #form {
+    margin: 0;
+  }
+}
+
+.conSection {
+  background-color: lightblue;
+  position: relative;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50%;
+  min-height: 100vh;
+}
+
+.conHeader {
+  font-size: 50px;
+  margin-bottom: 33.5px;
+}
+
+form {
+  margin: auto;
+  width: 40%;
+}
+
+#name {
+  width: 100%;
+}
+
+#email {
+  width: 100%;
+}
+
+#message {
+  width: 100%;
+  height: 115px;
 }

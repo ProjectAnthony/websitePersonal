@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="javascript.js"></script>
   </head>
-
   <body>
     <header class="header">
       <div>
@@ -23,27 +21,21 @@
       </div>
     </header>
 
-    <section class="indexSection">
-      <img
-        class="tyler"
-        src="images/tyler.webp"
-        alt="Tyler The Creator"
-        width="280"
-        height="320"
-      />
-
-      <h1 class="indexHeader">Developer, Gamer, Judoka</h1>
-
-      <p class="indexText">
-        Interested in improving development processes for teams big and small,
-        and helping new developers find their way.
-      </p>
-
-      <p class="quote">
-        "Who's gonna carry the boats?"
-        <br />
-        - David Goggins
-      </p>
+    <section class="conSection">
+      <h1 class="conHeader">Contact Me:</h1>
+      <section class="contact">
+        <div>
+          <form action="submit">
+            <label for="name">Name:</label> <br />
+            <input id="name" type="text" name="name" /> <br />
+            <label for="email">Email:</label> <br />
+            <input id="email" type="text" name="email" /> <br />
+            <label for="message">Message:</label> <br />
+            <input id="message" type="text" name="message" /> <br />
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>
     </section>
 
     <footer class="footer">
